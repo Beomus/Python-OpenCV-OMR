@@ -11,6 +11,7 @@ Simple script to do some basic OMR
 - This picture was taken from Google and the answer key was randomly generated, so in case you're wondering, this person _**DID NOT BUTCHER HIS/HER TEST ENTIRELY**_!
 - Depending on the picture/image you use, you need to tweak `cv2.thesh()` thresh and max values in order to recognize the contours better.
 - The script do not support **Bird's eye view transformation** but the `imutils` library has a tool for that please check that out. 
+- Accuracy is not the best at the moment, there are some tweakings to be done.
 
 ## TODO
 - Add a system to automatically deny any question that has multiple answers
